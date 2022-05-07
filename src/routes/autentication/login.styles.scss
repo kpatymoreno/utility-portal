@@ -1,0 +1,66 @@
+
+
+  h5 {
+    font-family: 'Lato', sans-serif;
+    color:#0e6e9a ;
+    
+    font-size: 900; /* 36px */
+    font-weight: bold;
+  }
+  
+.auth-wrapper {
+    min-height: 100vh;
+    position: relative;
+    background: url('../../assets/images/big/loginbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+.auth-box {
+    background: white;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    
+    border: 5px;
+    margin: auto;
+    max-width: 55%;
+    width: 25%;
+    height: 50%;
+    box-shadow: 2.5px 2.5px 2px 0.1px #0e6e9a;
+           
+    }
+    .h5{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
+      }
+      .centered {      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .primary { 
+        color: #fff  !important;
+        background-color: #1b2443 !important;       
+        border-color: #1b2443   !important;
+        
+      }
+
+      .primary:hover { 
+        color: #fff  !important;
+        background-color: #0e6e9a   !important;      
+        border-color: #0e6e9a   !important;
+        
+      }
