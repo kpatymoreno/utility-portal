@@ -21,7 +21,7 @@ const Registration = () => {
     
   ]
 
-return(<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
+return(<div className = "Container"><Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className="mb-3">
 <Tab eventKey="home" title="Todos">
  <div>prueba</div>
 </Tab>
@@ -29,6 +29,7 @@ return(<Tabs defaultActiveKey="profile" id="uncontrolled-tab-example" className=
 <div><Table data={dataTable} column={column} /></div>
 </Tab>
 
-</Tabs>)
+</Tabs>
+</div>);
 }
 export default Registration
